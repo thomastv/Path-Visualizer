@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-
+import React, { Component } from 'react';
+//React can be avoided
 import './Node.css';
 
 export default class Node extends Component {
@@ -17,10 +17,10 @@ export default class Node extends Component {
     const extraClassName = isFinish
       ? 'node-finish'
       : isStart
-      ? 'node-start'
-      : isWall
-      ? 'node-wall'
-      : '';
+        ? 'node-start'
+        : isWall
+          ? 'node-wall'
+          : '';
 
     return (
       <div

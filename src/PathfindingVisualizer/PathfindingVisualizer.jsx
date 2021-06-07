@@ -55,6 +55,10 @@ export default class PathfindingVisualizer extends Component {
     }
   }
 
+  //Here we change the classname and use it as a reference to the 
+  //property of a node
+
+
   animateShortestPath(nodesInShortestPathOrder) {
     for (let i = 0; i < nodesInShortestPathOrder.length; i++) {
       setTimeout(() => {
