@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 //React can be avoided
 import './Node.css';
-
+//Defines the state of the node
 export default class Node extends Component {
   render() {
     const {
