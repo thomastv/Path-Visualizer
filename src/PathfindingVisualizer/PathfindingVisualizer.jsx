@@ -49,6 +49,7 @@ export default class PathfindingVisualizer extends Component {
       }
       setTimeout(() => {
         const node = visitedNodesInOrder[i];
+        //console.log(node - node.row - node.col);
         document.getElementById(`node-${node.row}-${node.col}`).className =
           'node node-visited';
       }, 10 * i);
