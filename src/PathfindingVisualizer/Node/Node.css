@@ -1,7 +1,7 @@
 .node {
   width: 25px;
   height: 25px;
-  outline: 1px solid rgb(175, 216, 248);
+  outline: 1px solid rgb(175, 216, 238);
   display: inline-block;
 }
 
@@ -32,22 +32,22 @@
   }
 
   50% {
-    background-color: rgba(17, 104, 217, 0.75);
+    background-color: rgba(17, 109, 217, 0.75);
   }
 
   75% {
     transform: scale(1.2);
-    background-color: rgba(0, 217, 159, 0.75);
+    background-color: rgba(0, 207, 159, 0.75);
   }
 
   100% {
     transform: scale(1);
-    background-color: rgba(0, 190, 218, 0.75);
+    background-color: rgba(0, 180, 208, 0.75);
   }
 }
 
 .node-wall {
-  background-color: rgb(12, 53, 71);
+  background-color: rgb(12, 53, 61);
 }
 
 .node-shortest-path {
