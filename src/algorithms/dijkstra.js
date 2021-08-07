@@ -33,7 +33,7 @@ function updateUnvisitedNeighbors(node, grid) {
   }
 }
 
-//Use two different sets and add elements to it
+//Use two different sets and add elements to it. 
 
 function getUnvisitedNeighbors(node, grid) {
   const neighbors = [];
